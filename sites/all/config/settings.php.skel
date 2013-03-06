@@ -1,0 +1,10 @@
+<?php
+
+$databases['default']['default'] = array(
+  'driver' => 'mysql',
+  'database' => 'CLEAN_NAME',
+  'username' => 'CLEAN_NAME',
+  'password' => 'DBPASS',
+  'host' => 'localhost',
+);
+
