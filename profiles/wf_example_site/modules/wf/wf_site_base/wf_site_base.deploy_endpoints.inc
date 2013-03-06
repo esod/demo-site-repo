@@ -24,7 +24,7 @@ function wf_site_base_deploy_endpoints_default() {
   );
   $endpoint->service_plugin = 'DeployServiceRestJSON';
   $endpoint->service_config = array(
-    'url' => 'http://example.com/wf',
+    'url' => 'http://www.wf-demo.skwashd.info/wf',
   );
   $export['next'] = $endpoint;
 
