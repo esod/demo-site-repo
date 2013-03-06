@@ -1,0 +1,24 @@
+;
+; WF Example0 Drupal site build file
+;
+; Use this file to build the full site.
+;
+
+core = 7
+api = 2
+
+;
+; Core
+;
+projects[drupal][version] = 7.20
+projects[drupal][patch][session_name][url] = "https://drupal.org/files/drupal-1862168-session_name.patch"
+projects[drupal][patch][session_name][md5] = "b11f431790d26fb73f3f035d0ad2585d"
+
+;
+; Installation profile
+;
+projects[wf_example_site][type] = "profile"
+projects[wf_example_site][download][type] = "git"
+projects[wf_example_site][download][url] = "http://git.drupal.org/project/wf_example_site.git"
+projects[wf_example_site][download][branch] = "7.x-1.x"
+

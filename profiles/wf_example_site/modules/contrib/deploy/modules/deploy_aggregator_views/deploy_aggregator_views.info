@@ -1,0 +1,15 @@
+name = Views deployment aggregator
+description = Aggregates content to a deployment plan by executing a user defined view.
+package = Deployment
+core = 7.x
+dependencies[] = deploy
+dependencies[] = views
+
+files[] = plugins/DeployAggregatorViews.inc
+
+
+; Information added by drush on 2013-02-27
+version = "4f17cb3d"
+project = "deploy"
+datestamp = "1361942544"
+

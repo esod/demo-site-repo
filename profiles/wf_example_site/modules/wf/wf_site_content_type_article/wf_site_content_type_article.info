@@ -1,0 +1,38 @@
+name = WF Site Content Type: Article
+description = Article content type for WF example site
+core = 7.x
+package = WF
+php = 5.2.4
+version = master-dev
+project = wf_example_site
+dependencies[] = features
+dependencies[] = image
+dependencies[] = media
+dependencies[] = node
+dependencies[] = strongarm
+dependencies[] = taxonomy
+dependencies[] = text
+datestamp = 1355143763
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:1
+features[field][] = comment-comment_node_article-comment_body
+features[field][] = node-article-body
+features[field][] = node-article-field_image
+features[field][] = node-article-field_tags
+features[node][] = article
+features[taxonomy][] = tags
+features[user_permission][] = create article content
+features[user_permission][] = delete any article content
+features[user_permission][] = delete own article content
+features[user_permission][] = delete terms in 1
+features[user_permission][] = edit any article content
+features[user_permission][] = edit own article content
+features[user_permission][] = edit terms in 1
+features[variable][] = field_bundle_settings_node__article
+
+
+; Information added by drush on 2013-02-27
+version = ""
+project = "wf_example_site"
+datestamp = "1361942524"
+

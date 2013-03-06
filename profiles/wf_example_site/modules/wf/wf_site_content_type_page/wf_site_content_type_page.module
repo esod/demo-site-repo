@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the WF Site Content Type: Page feature.
+ */
+
+include_once 'wf_site_content_type_page.features.inc';
