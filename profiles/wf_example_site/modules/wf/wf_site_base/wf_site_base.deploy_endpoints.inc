@@ -19,8 +19,8 @@ function wf_site_base_deploy_endpoints_default() {
   $endpoint->debug = 0;
   $endpoint->authenticator_plugin = 'DeployAuthenticatorSession';
   $endpoint->authenticator_config = array(
-    'username' => 'deploy',
-    'password' => 'deploy',
+    'username' => 'deployer',
+    'password' => 'deployer',
   );
   $endpoint->service_plugin = 'DeployServiceRestJSON';
   $endpoint->service_config = array(
