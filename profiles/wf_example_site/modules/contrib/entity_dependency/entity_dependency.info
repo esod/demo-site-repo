@@ -1,0 +1,13 @@
+name = "Entity Dependency API"
+description = "Provides an API to define dependencies between entities, and also a useful iterator class."
+core = "7.x"
+
+files[] = EntityDependencyIterator.inc
+files[] = entity_dependency.test
+
+
+; Information added by drush on 2013-02-27
+version = "f17a3a1f39e10e9ef2fc558e61c604ad9c51efcd"
+project = "entity_dependency"
+datestamp = "1361942541"
+

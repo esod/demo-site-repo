@@ -1,0 +1,13 @@
+<?php
+/**
+ * @file
+ * Install functions for the WF example site installation profile.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function wf_example_site_install() {
+  // Only permit administrators to create users.
+  variable_set('user_register', USER_REGISTER_ADMINISTRATORS_ONLY);
+}

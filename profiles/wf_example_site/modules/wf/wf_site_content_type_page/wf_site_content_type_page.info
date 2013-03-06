@@ -1,0 +1,34 @@
+name = WF Site Content Type: Page
+description = Basic page content type for WF example site
+core = 7.x
+package = WF
+php = 5.2.4
+version = master-dev
+project = wf_example_site
+dependencies[] = features
+dependencies[] = wf_site_base
+datestamp = 1355139416
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:1
+features[field][] = comment-comment_node_page-comment_body
+features[field][] = node-page-body
+features[node][] = page
+features[user_permission][] = create page content
+features[user_permission][] = delete any page content
+features[user_permission][] = delete own page content
+features[user_permission][] = edit any page content
+features[user_permission][] = edit own page content
+
+
+; Information added by drush on 2012-12-10
+version = "master-dev"
+project = "wf_example_site"
+datestamp = "1355143763"
+
+
+
+; Information added by drush on 2013-02-27
+version = ""
+project = "wf_example_site"
+datestamp = "1361942524"
+

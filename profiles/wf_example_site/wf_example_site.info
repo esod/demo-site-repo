@@ -1,0 +1,78 @@
+name = WF Example Site
+description = Example of a WF compatiable Drupal site.
+core = 7.x
+
+dependencies[] = admin
+dependencies[] = bean
+dependencies[] = bean_admin_ui
+dependencies[] = bean_uuid
+dependencies[] = block
+dependencies[] = context_ui
+dependencies[] = context_uuid
+dependencies[] = date
+dependencies[] = deploy_auto_plan
+dependencies[] = deploy_ui
+dependencies[] = diff
+dependencies[] = embed_media_field
+dependencies[] = entity
+dependencies[] = entityreference
+dependencies[] = entity_menu_links
+dependencies[] = environment_indicator
+dependencies[] = features
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = globalredirect
+dependencies[] = help
+dependencies[] = image
+dependencies[] = libraries
+dependencies[] = link
+dependencies[] = list
+dependencies[] = locale
+dependencies[] = media
+dependencies[] = media_browser_plus
+dependencies[] = menu
+dependencies[] = module_filter
+dependencies[] = multiple_node_menu
+dependencies[] = node
+dependencies[] = options
+dependencies[] = path
+dependencies[] = pathauto
+dependencies[] = ping
+dependencies[] = realname
+dependencies[] = redirect
+dependencies[] = redirect_uuid
+dependencies[] = rest_server
+dependencies[] = strongarm
+dependencies[] = syslog
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = token
+dependencies[] = update
+dependencies[] = user
+dependencies[] = uuid
+dependencies[] = uuid_link
+dependencies[] = uuid_path
+dependencies[] = uuid_services
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = wf_site_base
+dependencies[] = wf_site_content_type_article
+dependencies[] = wf_site_content_type_page
+dependencies[] = wysiwyg
+
+
+
+; Information added by drush on 2012-12-10
+version = "master-dev"
+project = "wf_example_site"
+datestamp = "1355139416"
+
+
+
+; Information added by drush on 2013-02-27
+version = ""
+project = "wf_example_site"
+datestamp = "1361942524"
+
