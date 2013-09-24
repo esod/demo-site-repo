@@ -26,10 +26,10 @@ function wf_site_base_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'bean-copyright' => array(
-          'module' => 'bean',
-          'delta' => 'copyright',
-          'region' => 'footer',
+        'system-navigation' => array(
+          'module' => 'system',
+          'delta' => 'navigation',
+          'region' => 'sidebar_second',
           'weight' => '-10',
         ),
       ),
